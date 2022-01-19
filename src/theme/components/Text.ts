@@ -2,7 +2,7 @@ import { primaryLightColor } from "..";
 
 const Text = {
 	baseStyle: {
-		color: primaryLightColor,
+		color: "teal.400",
 	},
 };
 

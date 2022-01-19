@@ -1,5 +1,4 @@
 import { extendTheme } from "@chakra-ui/react";
-import { mode } from "@chakra-ui/theme-tools";
 import Button from "./components/Button";
 import Heading from "./components/Heading";
 import Select from "./components/Select";
