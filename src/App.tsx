@@ -154,26 +154,6 @@ function App() {
 							w={["40%", "auto"]}
 						/>
 					</HStack>
-					{data.result !== "" && mode === "encrypt" && (
-						<VStack spacing="1px">
-							<Text fontSize={["1.2rem", "1.5rem", "1.7rem"]} fontFamily="Oswald">
-								Encrypted Text
-							</Text>
-							<Text fontWeight="bold" fontSize="1.5rem">
-								{data.result}
-							</Text>
-						</VStack>
-					)}
-					{data.result !== "" && mode === "decrypt" && (
-						<VStack spacing="1px">
-							<Text fontSize={["1.2rem", "1.5rem", "1.7rem"]} fontFamily="Oswald">
-								Decrypted Text
-							</Text>
-							<Text fontWeight="bold" fontSize="1.5rem">
-								{data.result}
-							</Text>
-						</VStack>
-					)}
 					<HStack>
 						<Select
 							value={mode}
