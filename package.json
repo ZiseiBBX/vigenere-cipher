@@ -1,5 +1,5 @@
 {
-  "name": "vignere-cipher",
+  "name": "vigenere-cipher",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",

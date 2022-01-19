@@ -1,7 +1,13 @@
 import { extendTheme } from "@chakra-ui/react";
 import { mode } from "@chakra-ui/theme-tools";
 import Button from "./components/Button";
+import Heading from "./components/Heading";
+import Select from "./components/Select";
 import Textarea from "./components/Textarea";
+import Text from "./components/Text";
+import Switch from "./components/Switch";
+import Modal from "./components/Modal";
+import Divider from "./components/Divider";
 
 const config = {
 	initialColorMode: "light",
@@ -16,23 +22,12 @@ export const primaryHoverDarkColor = "teal.500";
 const theme = extendTheme({
 	config,
 	components: {
-		Heading: {
-			baseStyle: {
-				fontFamily: "Oswald",
-			},
-		},
-		Text: {
-			baseStyle: {
-				color: primaryLightColor,
-			},
-		},
-		Modal: {
-			baseStyle: {
-				header: {
-					fontFamily: "Oswald",
-				},
-			},
-		},
+		Select,
+		Heading,
+		Text,
+		Modal,
+		Switch,
+		Divider,
 		Button,
 		Textarea,
 	},
